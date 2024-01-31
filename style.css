@@ -1,0 +1,9 @@
+.winner{
+    background: rgb(88, 190, 88);
+}
+.loser{
+    background: rgb(182, 91, 91);
+}
+.draw{
+    background: rgb(179, 170, 170);
+}
