@@ -35,6 +35,8 @@
     width: 40vw;
     color: hsl(210, 90%, 95%);
     font-size: 5vw;
+    font-weight: 600;
+
 }
 .center_text{
     display: flex;
