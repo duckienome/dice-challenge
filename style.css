@@ -1,9 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background: hsl(210, 80%, 10%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 1vh;
+    column-gap: 1vw;
+
+}
+
+
+#show_winner{
+    height: 20vh;
+    width: 80vw;
+    background: #483ae0;
+    color: hsl(210, 90%, 80%);
+
+    font-size: 5vw;
+    font-weight: 600;
+}
+#random_1,#random_2{
+    height: 40vh;
+    width: 40vw;
+    color: hsl(210, 90%, 95%);
+    font-size: 5vw;
+}
+.center_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font_fam{
+    font-family: 'Montserrat', sans-serif;
+}
+.radius{
+    border-radius: 1.5vw;
+}
+
+
+
+button, input[type="submit"], input[type="reset"] {
+	background:hsl(210, 90%, 20%) ;
+	color: hsl(210, 90%, 80%);
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    width: 30vw;
+    height: 15vh;
+
+    font-size: 3vw;
+    font-weight: 600;
+}
+
 .winner{
-    background: rgb(88, 190, 88);
+    background: hsl(120,60%,50%);
+    color: hsl(120,90%,90%);
 }
 .loser{
-    background: rgb(182, 91, 91);
+    background: hsl(0,60%,50%);
+    color: hsl(00,90%,90%);
 }
 .draw{
-    background: rgb(179, 170, 170);
+    background: hsl(120,0%,50%);
+    color: hsl(120,00%,90%);
 }
