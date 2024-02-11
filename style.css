@@ -6,7 +6,7 @@
 }
 
 #main{
-    height: 100vh;
+    height: 100svh;
     width: 100%;
     background: hsl(210, 80%, 10%);
 
@@ -15,8 +15,8 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    row-gap: 1vh;
-    column-gap: 1vw;
+    row-gap: 1svh;
+    column-gap: 1svw;
 
 }
 
@@ -27,16 +27,14 @@
     background: #483ae0;
     color: hsl(210, 90%, 80%);
 
-    font-size: 5vw;
+    font-size: 5svw;
     font-weight: 600;
 }
 #random_1,#random_2{
-    height: 40vh;
-    width: 40vw;
-    color: hsl(210, 90%, 95%);
-    font-size: 5vw;
+    height: 40svh;
+    width: 40svw;
+    font-size: 5svw;
     font-weight: 600;
-
 }
 .center_text{
     display: flex;
@@ -47,7 +45,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .radius{
-    border-radius: 1.5vw;
+    border-radius: 1.5svw;
 }
 
 
@@ -59,10 +57,10 @@ button, input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 	outline: inherit;
 
-    width: 30vw;
-    height: 15vh;
+    width: 30svw;
+    height: 15svh;
 
-    font-size: 3vw;
+    font-size: 3svw;
     font-weight: 600;
 }
 

@@ -1,5 +1,13 @@
+const myBtn = document.querySelector("#myBtn");
+
+
 let random_1 = Math.floor(Math.random()*7);
 let random_2 = Math.floor(Math.random()*7);
+
+
+myBtn.addEventListener("click",()=>{
+    window.location.reload()
+})
 
 
 document.querySelector("#random_1").innerText = random_1;
@@ -23,13 +31,13 @@ function show_winner(winner) {
         document.querySelector("#random_1").classList.toggle("winner");
         document.querySelector("#random_2").classList.toggle("loser");
 
-        document.querySelector("#show_winner").innerText = "random_1 won";
+        document.querySelector("#show_winner").innerText = "Random 1 won";
 
     } else if (winner == random_2) {
         document.querySelector("#random_1").classList.toggle("loser");
         document.querySelector("#random_2").classList.toggle("winner");
 
-        document.querySelector("#show_winner").innerText = "random_2 won";
+        document.querySelector("#show_winner").innerText = "Random 2 won";
 
     } else {
         document.querySelector("#random_1").classList.toggle("draw");
@@ -40,5 +48,5 @@ function show_winner(winner) {
     }
 }
 
-var winner = decide_winner();
+let winner = decide_winner();
 show_winner(winner);
